@@ -21,38 +21,73 @@
 
         <header id="header">
             <!-- NAVBAR CONTAINER -->
-            <nav class="navbar navbar-light bg-light">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <div class="container">
-
-                    <a class="navbar-brand" href="#"><img width="150px"
+                    <!-- NAVBAR LOGO -->
+                    <a class="navbar-brand" href="#"><img width="150"
                             src="images/logo.png" alt="Tech Today Logo"></a>
 
-                    <div class="navbar-collapse collapse">
+                    <!-- BUTTON TO SHOW NAVBAR ON SMALL SCREENS -->
+                    <button
+                        class="navbar-toggler rounded-0"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse justify-content-end"
+                        id="nav">
+                        <!-- NAV LIST -->
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Link 1</a>
+                                <a class="nav-link active" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link 1</a>
-                            </li>
-                            <li class="nav-item actives">
-                                <a class="nav-link" href="#">Link 1</a>
+                            <!-- DROPDOWN -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Articles
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Web
+                                            Development</a></li>
+                                    <li><a class="dropdown-item" href="#">Data
+                                            Science</a></li>
+                                    <li><a class="dropdown-item" href="#">Artificial
+                                            Intelligence</a></li>
+                                </ul>
                             </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+
+                            <!-- SEARCH BAR AND BUTTON -->
+                            <form class="d-flex" role="search">
+                                <input
+                                    class="form-control me-2 ms-md-3 rounded-0"
+                                    type="search" placeholder="Type to search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-dark rounded-0"
+                                    type="submit">Search</button>
+                            </form>
                         </ul>
 
                     </div>
 
                 </div>
-
             </nav>
         </header>
 
+
+        
+
+
+        <!-- BOOTSTRAP JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
     </body>
 </html>
