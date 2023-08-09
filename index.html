@@ -80,91 +80,94 @@
 
         <main id="main">
             <!-- CAROUSEL -->
-            <section id="intro-carousel" class="carousel slide">
-                <!-- BOTTOM INDICATORS -->
-                <div class="carousel-indicators">
-                    <button type="button"
-                        data-bs-target="#intro-carousel"
-                        data-bs-slide-to="0" class="active" aria-current="true"
-                        aria-label="Slide 1"></button>
-                    <button type="button"
-                        data-bs-target="#intro-carousel"
-                        data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button"
-                        data-bs-target="#intro-carousel"
-                        data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-
-                <div class="carousel-inner">
-                    <!-- CAROUSEL ITEM 1 -->
-                    <div class="carousel-item active">
-                        <!-- Carousel Image 1 -->
-                        <img src="images/img-1.jpg" class="d-block w-100"
-                            alt="Carousel Image">
-                        <!-- Carousel Text 1 -->
-                        <div
-                            class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
-                            <h5 class="fs-2 fw-bolder mb-3">NASA's cutting-edge
-                                technologies are changing the world</h5>
-                            <p class="fs-5 fw-light mb-0">Explore the many ways
-                                NASA
-                                technology is improving our lives.</p>
-                            <button class="btn btn-light mt-4">Read More</button>
+            <div class="container">
+                <section id="intro-carousel" class="carousel slide">
+                    <!-- BOTTOM INDICATORS -->
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#intro-carousel"
+                            data-bs-slide-to="0" class="active" aria-current="true"
+                            aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#intro-carousel"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#intro-carousel"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+    
+                    <div class="carousel-inner">
+                        <!-- CAROUSEL ITEM 1 -->
+                        <div class="carousel-item active ">
+                            <!-- Carousel Image 1 -->
+                            <img src="images/c-image-1.jpg" class="d-block ratio ratio-16x9"
+                                alt="Carousel Image">
+                            <!-- Carousel Text 1 -->
+                            <div
+                                class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="fs-2 fw-bolder mb-md-3 mb-2">NASA's cutting-edge
+                                    technologies are changing the world</h5>
+                                <p class="fs-5 fw-light mb-0">Explore the many ways
+                                    NASA
+                                    technology is improving our lives.</p>
+                                <button class="d-none d-md-block btn btn-light mt-4">Read More</button>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEM 2 -->
+                        <div class="carousel-item">
+                            <!-- Carousel Image 2 -->
+                            <img src="images/c-image-2.jpg" class="ratio ratio-16x9 d-block"
+                                alt="Carousel Image">
+                            <!-- Carousel Text 2 -->
+                            <div
+                                class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="fs-2 fw-bolder mb-md-3 mb-2">The evolution of
+                                    desktop
+                                    screens: From CRTs to OLEDs</h5>
+                                <p class="fs-5 fw-light mb-0">A look at the history
+                                    and
+                                    future of desktop screens.</p>
+                                <button class="d-none d-md-block btn btn-light mt-4">Read More</button>
+    
+                            </div>
+                        </div>
+    
+                        <!-- CAROUSEL ITEM 3 -->
+                        <div class="carousel-item">
+                            <!-- Carouself Image 3 -->
+                            <img src="images/c-image-3.jpg" class="d-block ratio ratio-16x9"
+                                alt="Carousel Image">
+                            <!-- Carousel Text 3 -->
+                            <div
+                                class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
+                                <h5 class="fs-2 fw-bolder mb-md-3 mb-2">JavaScript is the
+                                    future
+                                    of the web</h5>
+                                <p class="fs-5 fw-light mb-0">Learn how JavaScript
+                                    is
+                                    evolving to power the next generation of web
+                                    applications.</p>
+                                <button class="d-none d-md-block btn btn-light mt-4">Read More</button>
+                            </div>
                         </div>
                     </div>
-                    <!-- CAROUSEL ITEM 2 -->
-                    <div class="carousel-item">
-                        <!-- Carousel Image 2 -->
-                        <img src="images/img-2.jpg" class="d-block w-100 "
-                            alt="Carousel Image">
-                        <!-- Carousel Text 2 -->
-                        <div
-                            class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
-                            <h5 class="fs-2 fw-bolder mb-3">The evolution of
-                                desktop
-                                screens: From CRTs to OLEDs</h5>
-                            <p class="fs-5 fw-light mb-0">A look at the history
-                                and
-                                future of desktop screens.</p>
-                            <button class="btn btn-light mt-4">Read More</button>
+    
+                    <!-- CAROUSEL BUTTON PREVIOUS -->
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#intro-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+    
+                    <!-- CAROUSEL BUTTON NEXT -->
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#intro-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </section>
+            </div>
 
-                        </div>
-                    </div>
-
-                    <!-- CAROUSEL ITEM 3 -->
-                    <div class="carousel-item">
-                        <!-- Carouself Image 3 -->
-                        <img src="images/img-3.jpg" class="d-block w-100"
-                            alt="Carousel Image">
-                        <!-- Carousel Text 3 -->
-                        <div
-                            class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
-                            <h5 class="fs-2 fw-bolder mb-3">JavaScript is the
-                                future
-                                of the web</h5>
-                            <p class="fs-5 fw-light mb-0">Learn how JavaScript
-                                is
-                                evolving to power the next generation of web
-                                applications.</p>
-                            <button class="btn btn-light mt-4">Read More</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CAROUSEL BUTTON PREVIOUS -->
-                <button class="carousel-control-prev" type="button"
-                    data-bs-target="#intro-carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-
-                <!-- CAROUSEL BUTTON NEXT -->
-                <button class="carousel-control-next" type="button"
-                    data-bs-target="#intro-carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </section>
 
             <!-- LATEST POSTS SECTION -->
             <section class="container pt-5" id="latest">
@@ -175,7 +178,7 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="images/img-1.jpg"
+                            <img src="images/p-img-1.jpg"
                                 class="img-fluid h-100 object-fit-cover rounded"
                                 alt="Post Image">
                         </div>
@@ -207,7 +210,7 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="images/img-2.jpg"
+                            <img src="images/p-img-2.jpg"
                                 class="img-fluid h-100 object-fit-cover rounded"
                                 alt="Post Image">
                         </div>
@@ -239,7 +242,7 @@
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="images/img-3.jpg"
+                            <img src="images/p-img-3.jpg"
                                 class="img-fluid h-100 object-fit-cover rounded"
                                 alt="Post Image">
                         </div>
